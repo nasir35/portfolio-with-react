@@ -1,33 +1,33 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo1 from '../../../images/logo-1.png'
 
-const Footer = () => {
+const Footers = () => {
     return (
-        <div className="grid grid-cols-12 px-3 gap-3 bg-gray-50">
-            <div className="md:col-span-5 col-span-12">
-                <h2 className="text-xl text-gray-800">Md Nasir Ahmed</h2>
-                <p>I am an inventive frontend developer. I love to design and develop! Trying to contribute in open source.</p>
+        <div className="md:p-10 sm:p-5 p-3 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-3 bg-gray-200">
+            <div id="logo-slogan-section" className="col-span-1">
+                <img src={logo1} className="w-2/4" alt="" />
+                <p className="text-gray-600 text-sm mx-4">Inventive front-end web developer with strong working knowledge. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.</p>
             </div>
-            <div className="md:col-span-3 col-span-12">
-                <h2 className="text-xl text-gray-800">Useful links</h2>
-                <div className="flex md:flex-row flex-col items-center">
-                    <button>Resume</button>
-                    <NavLink to="/contact">Hire Me</NavLink>
-                    <NavLink to="/contact">Portfolio</NavLink>
-                    <NavLink to="/contact">Services</NavLink>
-                    <NavLink to="/contact">GitHub</NavLink>
-                </div>
+            <div id="address-section" className="col-span-1">
+                <h2 className="md:text-2xl text-xl font-medium text-stromboli mb-3">Connect With Me</h2>
+                <p className=" md:text-base text-sm font-medium">&emsp;<i className="far fa-envelope pb-2 text-green-900"></i> <span className="font-medium"></span> Email Me</p>
+                <a href="https://www.linkedin.com/in/nasir358/" target="_blank" className="block md:text-base text-sm font-medium">&emsp;<i className="fab fa-linkedin-in pb-2 text-indigo-500"></i> <span className="font-medium"></span>Get Connected in Linkedin</a>
+                <a href="https://github.com/nasir35" target="_blank" className="block md:text-base text-sm font-medium">&emsp;<i className="fab fa-github-square font-medium pb-2 text-gray-900"></i> <span className="font-medium"></span>Follow on GitHub</a>
+                <p className=" font-medium">&emsp;<i className="fas fa-phone-alt text-green-custom text-sm"></i> (+880) 1690 215534</p>
             </div>
-            <div className="md:col-span-4 col-span-12">
-                <h2 className="text-xl text-gray-800">Connect with me</h2>
-                <button>Linkedin</button>
-                <button>Facebook</button>
-                <button>Twitter</button>
-                <button>GitHub</button>
+            <div id="links-section" className="col-span-1">
+                <h2 className="md:text-2xl text-xl font-medium text-stromboli pb-3">Useful links</h2>
+                <NavLink to="/home" className="block">&emsp;<i className="fas fa-link"></i> Home</NavLink>
+                <NavLink to="/home" className="block">&emsp;<i className="fas fa-link"></i> Portfolio</NavLink>
+                <NavLink to="/home" className="block">&emsp;<i className="fas fa-link"></i> Services</NavLink>
+                <a href="https://drive.google.com/file/d/1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0/view" target="_blank" className="block">&emsp;<i className="fas fa-link"></i> Resume</a>
             </div>
-            
+            <div className="md:col-span-3 sm:col-span-2 col-span-1 pt-4">
+                <p className="max-w-md mx-auto text-center text-base text-gray-800 border-b-2 border-gray-700" style={{ lineHeight: 0.1 }}><span className="bg-gray-200 px-2">&copy; All Rights reserved - Nasir 2021</span></p>
+            </div>
         </div>
     );
 };
 
-export default Footer;
+export default Footers;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import nasir1 from '../../../images/nasir-1.png'
 const Banner = () => {
     return (
         <div style={{backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShbDutvcEDsez_fS_AOTKnQEVZ4kVPa17O5A5CA0n0aChEKsSanSaHLVbU0NTbK8B1GxI&usqp=CAU)', backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
@@ -23,7 +24,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="md:col-span-6 col-span-12 md:order-1 py-2">
-                <img src="https://i.ibb.co/bP1b8RX/nasir-1.png" className="w-4/5 mx-auto rounded-full bg-coral" alt="" />
+                <img src={nasir1} className="w-4/5 mx-auto rounded-full bg-coral" alt="" />
             </div>            
         </div>
         </div>

@@ -1,14 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
-import Banner from './pages/Home/Banner-section/Banner';
-import Footers from './pages/Shared/Footer/Footers';
+import Home from './pages/Home/Home';
+import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header'
 function App() {
   return (
     <div>
       <BrowserRouter>
       <Header/>
-      <Banner/>
-      <Footers></Footers>
+      <Home></Home>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );
