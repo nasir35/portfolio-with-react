@@ -21,10 +21,10 @@ const Contact = e => {
       });
     }
     return (
-        <div className="py-5" style={{backgroundImage: 'url(https://image.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+        <div id="contact" className="py-5" style={{backgroundImage: 'url(https://image.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
             <div className="text-center py-5 space-y-2">
                 <h2 className="inline-block border-coral text-green-custom sm:text-4xl text-3xl px-4 border-b-4 rounded font-semibold font-qsand">Contact Me!</h2>
-                <p className="md:w-3/4 w-full px-2 mx-auto pb-4 sm:text-base text-sm" style={{color: '#DCE9F0'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium saepe consectetur quas consequuntur, dolor, eligendi numquam rem atque impedit eaque sequi praesentium quo ipsa a delectus officia nisi dolorum architecto!</p>
+                <p className="md:w-3/4 w-full px-2 mx-auto pb-4 sm:text-base text-sm" style={{color: '#DCE9F0'}}>It's a pleasure to be connected with people. Please contact me if you wanna say hi or ask any questions or any discussion. I will back to you as early as possible.!</p>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="md:block hidden p-3">

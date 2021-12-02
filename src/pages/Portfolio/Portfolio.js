@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bikemart from '../../images/project-1.png'
 import footprints from '../../images/project-2.png'
 import medicare from '../../images/project-3.png'
@@ -8,6 +9,7 @@ import TechyTeach from '../../images/project-6.png'
 const Portfolio = () => {
     const data = [
         {
+            id: 1,
             img : bikemart,
             title: 'Bike Mart',
             details: `Overview:
@@ -22,11 +24,11 @@ const Portfolio = () => {
             serverSideCode: 'https://github.com/nasir35/Bikemart-server-side',
         },
         {
+            id: 2,
             img : footprints,
             title: 'FootPrints',
             details: `Overview:
-            Users can see packages of Footprints and can purchase one. 
-            Implemented Splide js and Firebase Authentication and stored data on MongoDB.
+            Users can see packages of Footprints and can purchase one. Implemented Splide js and Firebase Authentication and stored data on MongoDB.
             Users can see their order list and can manage them.
             
             Technology used : React.js, Tailwind CSS, Splide.js, Firebase, Node.js, Express.js, MongoDB.`,
@@ -35,6 +37,7 @@ const Portfolio = () => {
             serverSideCode: 'https://github.com/nasir35/footprints-server-side',
         },
         {
+            id:3,
             img : medicare,
             title: 'Medicare',
             details: `Overview:
@@ -48,6 +51,7 @@ const Portfolio = () => {
             serverSideCode: 'No server side',
         },
         {
+            id:4,
             img : tastyFoodHub,
             title: 'Tasty Food Hub',
             details: `Overview:
@@ -62,6 +66,7 @@ const Portfolio = () => {
             serverSideCode: 'No server side',
         },
         {
+            id:5,
             img : HondaCBR,
             title: 'Honda',
             details: `Overview:
@@ -76,6 +81,7 @@ const Portfolio = () => {
             serverSideCode: 'No server side',
         },
         {
+            id: 6,
             img : TechyTeach,
             title: 'Techy Teach',
             details: `Overview:
@@ -108,7 +114,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="flex sm:flex-col justify-center gap-y-5 py-1 sm:col-span-1 col-span-12 sm:rounded-r-xl rounded-r-none sm:rounded-bl-none rounded-b-xl" style={{backgroundColor: '#313552'}}>
-                                <button className="text-2xl text-red-100 borde border-coral px-2"><i class="fas fa-info-circle" title="Details"></i></button>
+                                <Link to={`/portfolio/${dt.id}`} className="text-2xl text-red-100 borde border-coral px-2 block text-center"><i class="fas fa-info-circle" title="Details"></i></Link>
                                 <a href={dt.liveSite} target="_blank" className="text-2xl block text-center font-roboto borer px-2" style={{color: '#FFC576', borderColor: '#FFC576'}}><i class="fab fa-firefox" title="Visit"></i></a>
                                 <a href={dt.clientSideCode} target="_blank" className="text-2xl block text-center text-white border-coral borde px-2"><i class="fab fa-github" title="github"></i></a>
                             </div>
