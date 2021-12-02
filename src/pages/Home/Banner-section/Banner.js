@@ -8,10 +8,10 @@ const Banner = () => {
             <div className="md:col-span-6 col-span-12 space-y-2 md:order-0 order-1">
                 <h1 className="text-4xl medium text-white font-roboto">Hi,</h1>
                 <h2 className="text-3xl text-white">I'm <strong className="text-yellow font-medium font-roboto">Nasir Ahmed</strong></h2>
-                <div className="text-yellow text-2xl">
+                <div className="text-coral font-bold font-qsand text-2xl">
                 <Typewriter
                     options={{
-                        strings: ['A WEB DEVELOPER', 'A DESIGNER', 'A MERN DEVELOPER', 'I LOVE TO DEVELOP'],
+                        strings: ['WEB DEVELOPER', 'WEB DESIGNER', 'MERN DEVELOPER', 'I LOVE TO DEVELOP'],
                         autoStart: true,
                         loop: true,
                     }}

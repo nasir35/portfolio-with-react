@@ -46,9 +46,9 @@ const Header = () => {
                 <NavLink to="/home" className="">About</NavLink>
                 <NavLink to="/home" className="menu">Services</NavLink>
                 <NavLink to="/home" className="menu">Portfolio</NavLink>
-                <NavLink to="/home" className="menu">Blogs</NavLink>
+                <NavLink to="/blogs" className="menu">Blogs</NavLink>
                 <NavLink to="/home" className="menu">Contact</NavLink>
-                <a target="_blank" href="https://drive.google.com/file/d/1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0/view" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded">Resume</a>
+                <a target="_blank" href="https://drive.google.com/u/0/uc?id=1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0&export=download" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded" download>Resume</a>
             </div>
         </div>
       </div>
