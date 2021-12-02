@@ -89,21 +89,29 @@ const Portfolio = () => {
             clientSideCode: 'https://github.com/techy-teach',
             serverSideCode: 'No server side',
         },
-    ]
+    ];
+
     return (
         <div className="py-8">
-            <h2 className="text-2xl font-medium font-roboto text-center text-green-custom">Portfolio</h2>
-            <h2 className="text-3xl font-qsand font-medium text-center text-stromboli pb-5">My Latest Works!</h2>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 gap-y-6 md:px-8 px-3">
+            <h2 className="text-xl font-medium font-roboto text-center text-green-custom">Portfolio</h2>
+            <h2 className="sm:text-4xl text-3xl font-qsand font-medium text-center text-stromboli pb-5">My Latest Works!</h2>
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 gap-y-6 pt-6 md:px-8 px-3">
                 {
-                    data.map(dt => <div className="shadow-xl border-2 border-stromboli rounded-xl">
+                    data.slice(0,4).map(dt => <div className="grid grid-cols-12 border rounded-xl" style={{borderColor: '#313552'}}>
+                        <div className="shadow-xl sm:rounded-tl-xl sm:col-span-11 col-span-12">
                         <div className=" h-80 overflow-hidden">
-                            <img src={dt.img} alt="" className="w-full block overflow-hidden rounded-xl"/>
+                            <img src={dt.img} alt="" className="w-full block overflow-hidden sm:rounded-tl-xl sm:rounded-tr-none rounded-t-xl"/>
                         </div>
-                        <div className="flex justify-between px-2 bg-gray-400 py-1 rounded-b-xl">
-                            <h2 className="text-xl font-roboto">{dt.title}</h2>
-                            <button className="text-lg text-blue-700 rounded">Details</button>
+                        <div className="px-2 space-y-2 sm:rounded-bl-xl rounded-bl-none pb-3" style={{backgroundColor: '#313552'}}>
+                            <h2 className="text-xl text-center pt-4 font-roboto text-white">{dt.title}</h2>
+                            <p className="text-gray-200 text-center">{dt.details.split(' ').slice(0,30).toString().replaceAll(',' || '.',' ')}</p>
                         </div>
+                    </div>
+                    <div className="flex sm:flex-col justify-center gap-y-5 py-1 sm:col-span-1 col-span-12 sm:rounded-r-xl rounded-r-none sm:rounded-bl-none rounded-b-xl" style={{backgroundColor: '#313552'}}>
+                                <button className="text-2xl text-red-100 borde border-coral px-2"><i class="fas fa-info-circle" title="Details"></i></button>
+                                <a href={dt.liveSite} target="_blank" className="text-2xl block text-center font-roboto borer px-2" style={{color: '#FFC576', borderColor: '#FFC576'}}><i class="fab fa-firefox" title="Visit"></i></a>
+                                <a href={dt.clientSideCode} target="_blank" className="text-2xl block text-center text-white border-coral borde px-2"><i class="fab fa-github" title="github"></i></a>
+                            </div>
                     </div>)
                 }
             </div>

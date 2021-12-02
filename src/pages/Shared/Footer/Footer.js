@@ -6,7 +6,7 @@ const Footers = () => {
     return (
         <div className="md:p-10 sm:p-5 p-3 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-3 bg-gray-200">
             <div id="logo-slogan-section" className="col-span-1">
-                <img src={logo1} className="w-2/4" alt="" />
+                <img src={logo1} className="lg:w-2/4 w-3/4" alt="" />
                 <p className="text-gray-600 text-sm mx-4">Inventive front-end web developer with strong working knowledge. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.</p>
             </div>
             <div id="address-section" className="col-span-1">

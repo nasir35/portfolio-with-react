@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <div className={`grid grid-cols-12 md:px-6 px-3 ${navbar ? 'sticky top-0 bg-gray-100 shadow' : 'bg-gray-100'} py-2`}>
         <div className="md:col-span-3 col-span-4 font-mono text-xl">
-          <img src={logo} alt="" className="md:w-28 w-20" />
+          <img src={logo} alt="" className="lg:w-28 md:w-20 w-20" />
         </div>
         <i className="md:hidden flex text-xl col-span-8 justify-end items-center" ref={btn} onClick={handleMobileMenu}>{isClose ? <i class="fas fa-bars"></i> : <i class="fas fa-times"></i>}</i>
         <div className="md:col-span-9 col-span-12 grid grid-cols-10">
