@@ -19,7 +19,7 @@ const About = () => {
                     <div className="md:px-0 px-3">
                     <h2 className="uppercase pt-3 md:pb-6 pb-3 lg:text-3xl md:text-2xl text-xl text-coral">Web Designer & Developer</h2>
                     <p className="font-qsand">Hey!! <br />
-I am Minhajul Islam Galib from Bangladesh. I always like to design something new to cope up with the world. My new ideas show me, how to be professional and to much originative. Proper activity in a work is important. That's why I always try to give more attention to my work.
+I am Nasir Ahmed from Bangladesh. I always like to design something new to cope up with the world. My new ideas show me, how to be professional and originative. Proper activity in a work is important. That's why I always try to give more attention to my work.
 <br /> <br />
 
 </p>
