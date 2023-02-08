@@ -5,7 +5,7 @@ const SingleProject = () => {
     const id = useParams();
     return (
         <div>
-            <h2>choosen number {id} project</h2>
+            <h2>choosen number {id.id} project</h2>
         </div>
     );
 };

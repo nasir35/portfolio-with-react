@@ -98,15 +98,15 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="py-8">
+        <div className="py-8" id="portfolio">
             <h2 className="text-xl font-medium font-roboto text-center text-green-custom">Portfolio</h2>
             <h2 className="sm:text-4xl text-3xl font-qsand font-medium text-center text-stromboli pb-5">My Latest Works!</h2>
             <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 gap-y-6 pt-6 md:px-8 px-3">
                 {
                     data.slice(0,4).map(dt => <div className="grid grid-cols-12 border rounded-xl" style={{borderColor: '#313552'}}>
                         <div className="shadow-xl sm:rounded-tl-xl sm:col-span-11 col-span-12">
-                        <div className=" h-80 overflow-hidden">
-                            <img src={dt.img} alt="" className="w-full block overflow-hidden sm:rounded-tl-xl sm:rounded-tr-none rounded-t-xl"/>
+                        <div className=" h-80 overflow-hidden relative">
+                            <img src={dt.img} alt="" className="w-full absolute hover:bottom-0 block overflow-hidden sm:rounded-tl-xl sm:rounded-tr-none rounded-t-xl"/>
                         </div>
                         <div className="px-2 space-y-2 sm:rounded-bl-xl rounded-bl-none pb-3" style={{backgroundColor: '#313552'}}>
                             <h2 className="text-xl text-center pt-4 font-roboto text-white">{dt.title}</h2>

@@ -22,7 +22,7 @@ const Services = () => {
         }
     ]
     return (
-        <div className="bg-gray-200 lg:py-10 md:py-8 py-6 text-white lg:px-10 md:px-6 px-3">
+        <div id="services" className="bg-gray-200 lg:py-10 md:py-8 py-6 text-white lg:px-10 md:px-6 px-3">
             <div className="text-center text-green-custom">
                 <h2 className="sm:text-3xl text-2xl font-qsand font-medium">My Services</h2>
                 <p className="sm:w-4/5 w-full mx-auto pt-3 text-gray-700">Here is a few category of services that I provide. I have worked on so many projects, related to web app development. So, I will be happy to serve you these kind of service.</p>

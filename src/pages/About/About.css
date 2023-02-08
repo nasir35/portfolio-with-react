@@ -1,0 +1,9 @@
+.link{
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 5px 12px;
+}
+.active{
+    background: linear-gradient(to right, rgb(208, 56, 56), rgb(243, 124, 144));
+    color: white;
+}

@@ -1,25 +1,41 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import About from './pages/About/About';
+import AboutMe from './pages/About/AboutMe';
+import Education from './pages/About/Education';
+import Experience from './pages/About/Experience';
+import Skills from './pages/About/Skills';
 import Blogs from './pages/Blog-Section/Blogs';
+import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import SingleProject from './pages/Portfolio/SingleProject';
+import Services from './pages/Service-section/Services';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header'
 function App() {
+
+  const router = createBrowserRouter([
+    {path : '/', 
+    element : <Home></Home>,
+    children: [
+      {path : '/', element : <AboutMe></AboutMe>},
+      {path : '/home', element : <AboutMe></AboutMe>},
+      {path : 'aboutme', element : <AboutMe></AboutMe>},
+      {path : 'skills', element : <Skills></Skills>},
+      {path : 'experience', element : <Experience></Experience>},
+      {path : 'education', element : <Education></Education>},
+    ]
+    },
+    {path : '/home', element : <Home></Home>},
+    {path : '/contact', element : <Contact></Contact>},
+    {path : '/about', element : <About></About>},
+    {path : '/portfolio', element : <Portfolio></Portfolio>},
+    {path : '/services', element : <Services></Services>},
+    {path : '/blogs', element : <Blogs></Blogs>},
+  ])
   return (
     <div>
-      <BrowserRouter>
-      <Header/>
-        <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/home" element={<Home/>}></Route>
-          <Route path="/blogs" element={<Blogs/>}></Route>
-          <Route path="/portfolio" element={<Portfolio />}>
-            <Route path=":id" element={<SingleProject />} />
-          </Route>
-        </Routes>
-        <Footer></Footer>
-      </BrowserRouter>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

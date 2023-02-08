@@ -1,0 +1,80 @@
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: rgb(228, 226, 226);
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    display: inline-block;
+    padding: 3px 0 3px 8px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.lightsky::before{
+    background-color: #4aa4ca;
+  }
+  .bar.darksky::before{
+    background-color: #6188c1;
+  }
+  
+  .bar.html::before{
+    background-color: #8495F4;
+    width: calc(80% - 10px);
+  }
+  .bar.css::before{
+    background-color: #424086;
+    width: calc(65% - 10px);
+  }
+  .bar.tailwind::before{
+    background-color: #B2C9C6;
+    width: calc(75% - 10px);
+  }
+  .bar.js::before{
+    width: calc(70% - 10px);
+  }
+  .bar.react::before{
+    width: calc(60% - 10px);
+  }
+  .bar.mongodb::before{
+    background-color: #D1C8E8;
+    width: calc(50% - 10px);
+  }
+  

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
-import nasir1 from '../../../images/nasir-1.png'
+import nasir1 from '../../../images/nasir-pass.jpg'
 const Banner = () => {
     return (
-        <div style={{backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShbDutvcEDsez_fS_AOTKnQEVZ4kVPa17O5A5CA0n0aChEKsSanSaHLVbU0NTbK8B1GxI&usqp=CAU)', backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
+        <div id="banner" style={{backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShbDutvcEDsez_fS_AOTKnQEVZ4kVPa17O5A5CA0n0aChEKsSanSaHLVbU0NTbK8B1GxI&usqp=CAU)', backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
         <div className="grid grid-cols-12 justify-center items-center px-6">
             <div className="md:col-span-6 col-span-12 space-y-2 md:order-0 order-1">
                 <h1 className="text-4xl text-gray-50 font-qsand font-bold">Welcome,</h1>
