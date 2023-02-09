@@ -1,0 +1,8 @@
+a.menu:hover{
+    border-bottom: 3px solid #1CAE4B;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.resume-btn:hover{
+    background-color: #2563EB;
+}

@@ -1,0 +1,3 @@
+.container > :not(.modal-container){
+    opacity: 0.51;
+}

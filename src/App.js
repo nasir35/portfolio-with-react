@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/About/About';
 import AboutMe from './pages/About/AboutMe';
 import Education from './pages/About/Education';
@@ -10,8 +10,7 @@ import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import SingleProject from './pages/Portfolio/SingleProject';
 import Services from './pages/Service-section/Services';
-import Footer from './pages/Shared/Footer/Footer';
-import Header from './pages/Shared/Header/Header'
+import NotFound from './pages/Shared/404/NotFound';
 function App() {
 
   const router = createBrowserRouter([
@@ -32,6 +31,7 @@ function App() {
     {path : '/portfolio', element : <Portfolio></Portfolio>},
     {path : '/services', element : <Services></Services>},
     {path : '/blogs', element : <Blogs></Blogs>},
+    {path : '/*', element : <NotFound></NotFound>}
   ])
   return (
     <div>

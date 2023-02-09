@@ -7,3 +7,18 @@
     background: linear-gradient(to right, rgb(208, 56, 56), rgb(243, 124, 144));
     color: white;
 }
+@media only screen and (max-width: 1020px) and  (min-width: 768px) {
+    .link{
+        padding: 4px 7px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .link{
+        padding: 3px 8px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .link-container{
+        font-size: x-small;
+    }
+}

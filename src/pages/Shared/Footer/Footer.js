@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo1 from '../../../images/logo-1.png'
+import { HashLink as Link } from 'react-router-hash-link';
+import logo1 from '../../../images/logo.png'
 
 const Footers = () => {
     return (
         <div className="md:p-10 sm:p-5 p-3 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-3 bg-gray-200">
             <div id="logo-slogan-section" className="col-span-1">
-                <img src={logo1} className="lg:w-2/4 w-3/4" alt="" />
+                <img src={logo1} className="lg:w-1/3 w-2/4 py-4" alt="" />
                 <p className="text-gray-600 text-sm mx-4">Inventive front-end web developer with strong working knowledge. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.</p>
             </div>
             <div id="address-section" className="col-span-1">
@@ -18,13 +18,13 @@ const Footers = () => {
             </div>
             <div id="links-section" className="col-span-1">
                 <h2 className="md:text-2xl text-xl font-medium text-stromboli pb-3">Useful links</h2>
-                <Link to="/home#banner" className="block">&emsp;<i className="fas fa-link"></i> Home</Link>
-                <Link to="/home#portfolio" className="block">&emsp;<i className="fas fa-link"></i> Portfolio</Link>
-                <Link to="/home#services" className="block">&emsp;<i className="fas fa-link"></i> Services</Link>
+                <Link smooth to="/home#banner" className="block">&emsp;<i className="fas fa-link"></i> Home</Link>
+                <Link smooth to="/home#portfolio" className="block">&emsp;<i className="fas fa-link"></i> Portfolio</Link>
+                <Link smooth to="/home#services" className="block">&emsp;<i className="fas fa-link"></i> Services</Link>
                 <a href="https://drive.google.com/file/d/1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0/view" target="_blank" className="block">&emsp;<i className="fas fa-link"></i> Resume</a>
             </div>
             <div className="md:col-span-3 sm:col-span-2 col-span-1 pt-4">
-                <p className="max-w-md mx-auto text-center text-base text-gray-800 border-b-2 border-gray-700" style={{ lineHeight: 0.1 }}><span className="bg-gray-200 px-2">&copy; All Rights reserved - Nasir 2022-2023</span></p>
+                <p className="max-w-md mx-auto text-center sm:text-base text-sm text-gray-800 border-b-2 border-gray-700" style={{ lineHeight: 0.1 }}><span className="bg-gray-200 px-2">&copy; All Rights reserved - Nasir 2022-2023</span></p>
             </div>
         </div>
     );

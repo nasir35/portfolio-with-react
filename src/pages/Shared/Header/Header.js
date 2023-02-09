@@ -10,7 +10,7 @@ const Header = () => {
   const menu = useRef();
 
   const handleStickyNav = () => {
-    if(window.scrollY > 60){
+    if(window.scrollY > 50){
       setNavbar(true);
     }
     else{
@@ -42,13 +42,13 @@ const Header = () => {
         <i className="md:hidden flex text-xl col-span-8 justify-end items-center" ref={btn} onClick={handleMobileMenu}>{isClose ? <i class="fas fa-bars"></i> : <i class="fas fa-times"></i>}</i>
         <div className="md:col-span-9 col-span-12 grid grid-cols-10">
             <div className="md:flex md:flex-row flex-col hidden font-medium md:justify-end justify-center items-center lg:space-x-8 md:space-x-4 space-x-0 w-full md:col-span-10 col-span-12" ref={menu} onClick={handleMenuClose}>
-                <Link smooth to="/home#banner" className="">Home</Link>
-                <Link smooth to="/home#about" className="">About</Link>
+                <Link smooth exact to="/home#banner" className="menu">Home</Link>
+                <Link smooth to="/home#about" className="menu">About</Link>
                 <Link smooth to="/home#services" className="menu">Services</Link>
                 <Link smooth to="/home#portfolio" className="menu">Portfolio</Link>
                 <Link smooth to="/blogs" className="menu">Blogs</Link>
                 <Link smooth to="/home#contact" className="menu">Contact</Link>
-                <a target="_blank" href="https://drive.google.com/u/0/uc?id=1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0&export=download" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded" download>Resume</a>
+                <a target="blank" href="https://drive.google.com/u/0/uc?id=1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0&export=download" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded resume-btn" download>Resume</a>
             </div>
         </div>
       </div>

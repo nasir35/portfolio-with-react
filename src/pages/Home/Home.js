@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from 'react-router';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
