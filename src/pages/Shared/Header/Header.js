@@ -47,8 +47,8 @@ const Header = () => {
                 <Link smooth to="/home#services" className="menu">Services</Link>
                 <Link smooth to="/home#portfolio" className="menu">Portfolio</Link>
                 <Link smooth to="/blogs" className="menu">Blogs</Link>
-                <Link smooth to="/home#contact" className="menu">Contact</Link>
-                <a target="blank" href="https://drive.google.com/u/0/uc?id=1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0&export=download" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded resume-btn" download>Resume</a>
+                <Link smooth to="/home#contact" className="menu transition ease-in-out duration-150">Contact</Link>
+                <a target="blank" href="https://drive.google.com/u/0/uc?id=1-evt0DvyIp6Mcxo4mUHJAcdja2yHLE-0&export=download" className="lg:px-4 px-2 py-0.5 bg-gray-600 text-white rounded resume-btn transition ease-linear duration-150" download>Resume</a>
             </div>
         </div>
       </div>

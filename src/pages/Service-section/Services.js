@@ -29,7 +29,7 @@ const Services = () => {
             </div>
             <div className="grid lg:grid-cols-3 pt-10 md:grid-cols-2 grid-cols-1 gap-8 gap-y-6 md:px-8 px-2">
                 {
-                    services.map(service => <div className="shadow-xl space-y-3 bg-gray-900 rounded-xl p-8">
+                    services.map(service => <div className="shadow-xl space-y-3 bg-gray-900 hover:bg-white hover:text-gray-900 transition ease-linear duration-200 rounded-xl p-8">
                         <div className="overflow-hidden">
                             <img src={service.icon} alt="" className="w-20 overflow-hidden rounded-xl"/>
                         </div>

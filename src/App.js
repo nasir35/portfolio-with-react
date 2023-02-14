@@ -31,6 +31,7 @@ function App() {
     {path : '/portfolio', element : <Portfolio></Portfolio>},
     {path : '/services', element : <Services></Services>},
     {path : '/blogs', element : <Blogs></Blogs>},
+    {path : '/portfolioDetails/:id', element : <SingleProject></SingleProject>},
     {path : '/*', element : <NotFound></NotFound>}
   ])
   return (

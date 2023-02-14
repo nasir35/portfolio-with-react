@@ -1,0 +1,21 @@
+
+.image-container{
+    height: 500px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.sImg{
+    display: block;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top left;    
+    transition: object-position 3s ease-out;
+    border: 1px solid coral;
+    border-radius: 15px;
+}
+.sImg:hover{
+    bottom: 0;
+    object-position: bottom left;
+}
