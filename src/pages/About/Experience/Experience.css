@@ -1,0 +1,12 @@
+.exp-div{
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+}
+.badge{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+}

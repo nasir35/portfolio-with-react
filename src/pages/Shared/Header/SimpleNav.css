@@ -1,0 +1,11 @@
+a.menu{
+    font-size: 1rem;
+    cursor: pointer;
+}
+a.menu:hover{
+    transform: scale(1.1);
+    color: #2563EB;
+}
+.resume-btn:hover{
+    background-color: #2563EB;
+}

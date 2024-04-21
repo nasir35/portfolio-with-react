@@ -1,4 +1,4 @@
-.link{
+.tab-option{
     border-radius: 5px;
     font-weight: 500;
     padding: 5px 12px;
@@ -13,6 +13,9 @@
     }
 }
 @media only screen and (max-width: 720px) {
+    .link-container{
+        font-size: small;
+    }
     .link{
         padding: 3px 8px;
     }

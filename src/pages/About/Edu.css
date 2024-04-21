@@ -1,3 +1,21 @@
+.edu-box-container {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 0.8s forwards 0.3s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
 .edu-box{
     width: 90%;
     border: 1px solid #aaa;
@@ -7,14 +25,10 @@
     margin-bottom: 5px;
 }
 .edu-box h2{
-    color: rgb(18, 17, 17);
     font-size: 1.2rem;
 }
 .edu-box h6{
-    color: #8495F4;
     font-size: 1rem;
-}
-.edu-box p{
 }
 .duration{
     display: inline-block;
@@ -22,4 +36,17 @@
     background-color: rgb(32, 175, 73);
     padding: 2px 10px;
     border-radius: 3px;;
+}
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+.edu-box:hover .img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%); 
 }
