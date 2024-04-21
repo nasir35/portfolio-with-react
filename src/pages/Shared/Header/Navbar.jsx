@@ -20,16 +20,16 @@ const Navbar = () => {
   const handleMobileMenu = () => {
     const mobileNav = document.getElementById("mobile-nav");
     mobileNav.classList.toggle("show");
-    setIsMenuOpen(mobileNav.classList.contains("show"));
+    setIsMenuOpen(!isMenuOpen);
   };
 
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = "hidden";
-      document.getElementById("nav-overlay").classList.toggle("hidden");
+      // document.getElementById("nav-overlay").classList.toggle("hidden");
     } else {
       document.body.style.overflow = "auto";
-      document.getElementById("nav-overlay").classList.toggle("hidden");
+      // document.getElementById("nav-overlay").classList.toggle("hidden");
     }
   }, [isMenuOpen]);
   const Navoptions = (
@@ -60,7 +60,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="nav-overlay hidden transition duration-300" id="nav-overlay"></div>
+      {/* <div className="nav-overlay hidden transition duration-300" id="nav-overlay"></div> */}
       <nav className={`${navSticky ? "sticky top-0  shadow" : ""} bg-gray-100 z-10 px-3 md:px-6 py-2 relative`}>
         <div id="pc-nav" className="flex justify-between items-center">
           <Link to="/" className="cursor-pointer max-w-[120px]">

@@ -20,7 +20,7 @@
 .mobile-nav #nav-links a{
     width: fit-content;
 }
-.nav-overlay{
+/* .nav-overlay{
   position: fixed;
     top: 0;
     bottom: 0;
@@ -31,4 +31,4 @@
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
     z-index: 1;
-}
+} */
