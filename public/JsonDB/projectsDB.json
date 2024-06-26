@@ -1,65 +1,63 @@
 [
-    {
-      "id": 1,
-      "img": "bikemart",
-      "title": "Bike Mart",
-      "currentStatus": "As Heroku stopped providing free server service, Currently the website is not functional!",
-      "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
-      "TechnologyUsed": "HTML,CSS,Tailwind CSS,React.js,Firebase,Node.js,Express.js,MongoDB",
-      "liveSite": "https://bikemart-by-nasir.web.app/",
-      "clientSideCode": "https://github.com/nasir35/Bikemart-client-side",
-      "serverSideCode": "https://github.com/nasir35/Bikemart-server-side"
-    },
-    {
-      "id": 2,
-      "img": "footprints",
-      "title": "FootPrints",
-      "currentStatus": "As Heroku stopped providing free server service, Currently the website is not functional!",
-      "details": "Overview: Users can see packages of Footprints and can purchase one. Implemented Splide js and Firebase Authentication and stored data on MongoDB. Users can see their order list and can manage them.",
-      "TechnologyUsed": "React.js,Tailwind CSS,Splide.js,Firebase,Node.js,Express.js,MongoDB",
-      "liveSite": "https://footprints-by-nasir.web.app/",
-      "clientSideCode": "https://github.com/nasir35/footprints-client-side",
-      "serverSideCode": "https://github.com/nasir35/footprints-server-side"
-    },
-    {
-      "id": 3,
-      "img": "medicare",
-      "title": "Medicare",
-      "details": "Overview: Medicare Hospital is a single page web app where people are able to select medical services which they want and can book an appointment by filling up a form of information. Implemented Email, Google, Github and Facebook Authentication. So that users can simply register or login. Implemented React-router and ensured Authwall for private routes.",
-      "TechnologyUsed": "React.js,Tailwind CSS,React-router,Firebase",
-      "liveSite": "https://medicare-hospital-bd.web.app/",
-      "clientSideCode": "https://github.com/nasir35/medicare-hospital",
-      "serverSideCode": "No server side"
-    },
-    {
-      "id": 4,
-      "img": "tastyFoodHub",
-      "title": "Tasty Food Hub",
-      "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
-      "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
-      "liveSite": "https://nasir35.github.io/tasty-food-hub/",
-      "clientSideCode": "https://github.com/nasir35/tasty-food-hub",
-      "serverSideCode": "No server side"
-    },
-    {
-      "id": 5,
-      "img": "HondaCBR",
-      "title": "Honda",
-      "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
-      "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
-      "liveSite": "https://honda-cbr-assignment-by-nasir.netlify.app/",
-      "clientSideCode": "https://github.com/nasir35/Honda-CBR",
-      "serverSideCode": "No server side"
-    },
-    {
-      "id": 6,
-      "img": "TechyTeach",
-      "title": "Techy Teach",
-      "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
-      "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
-      "liveSite": "https://techy-teach-by-nasir.netlify.app/",
-      "clientSideCode": "https://github.com/techy-teach",
-      "serverSideCode": "No server side"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "img": "bikemart",
+    "title": "Bike Mart",
+    "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
+    "TechnologyUsed": "HTML,CSS,Tailwind CSS,React.js,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://bikemart-by-nasir.web.app/",
+    "clientSideCode": "https://github.com/nasir35/Bikemart-client-side",
+    "serverSideCode": "https://github.com/nasir35/Bikemart-server-side"
+  },
+  {
+    "id": 2,
+    "img": "footprints",
+    "title": "FootPrints",
+    "currentStatus": "As Heroku stopped providing free server service, Currently the website is not functional!",
+    "details": "Overview: Users can see packages of Footprints and can purchase one. Implemented Splide js and Firebase Authentication and stored data on MongoDB. Users can see their order list and can manage them.",
+    "TechnologyUsed": "React.js,Tailwind CSS,Splide.js,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://footprints-by-nasir.web.app/",
+    "clientSideCode": "https://github.com/nasir35/footprints-client-side",
+    "serverSideCode": "https://github.com/nasir35/footprints-server-side"
+  },
+  {
+    "id": 3,
+    "img": "medicare",
+    "title": "Medicare",
+    "details": "Overview: Medicare Hospital is a single page web app where people are able to select medical services which they want and can book an appointment by filling up a form of information. Implemented Email, Google, Github and Facebook Authentication. So that users can simply register or login. Implemented React-router and ensured Authwall for private routes.",
+    "TechnologyUsed": "React.js,Tailwind CSS,React-router,Firebase",
+    "liveSite": "https://medicare-hospital-bd.web.app/",
+    "clientSideCode": "https://github.com/nasir35/medicare-hospital",
+    "serverSideCode": "No server side"
+  },
+  {
+    "id": 4,
+    "img": "tastyFoodHub",
+    "title": "Tasty Food Hub",
+    "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
+    "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://nasir35.github.io/tasty-food-hub/",
+    "clientSideCode": "https://github.com/nasir35/tasty-food-hub",
+    "serverSideCode": "No server side"
+  },
+  {
+    "id": 5,
+    "img": "HondaCBR",
+    "title": "Honda",
+    "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
+    "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://honda-cbr-assignment-by-nasir.netlify.app/",
+    "clientSideCode": "https://github.com/nasir35/Honda-CBR",
+    "serverSideCode": "No server side"
+  },
+  {
+    "id": 6,
+    "img": "TechyTeach",
+    "title": "Techy Teach",
+    "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
+    "TechnologyUsed": "React.js,Tailwind CSS,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://techy-teach-by-nasir.netlify.app/",
+    "clientSideCode": "https://github.com/techy-teach",
+    "serverSideCode": "No server side"
+  }
+]
