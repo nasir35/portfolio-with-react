@@ -1,6 +1,16 @@
 [
   {
     "id": 1,
+    "img": "dailyhut",
+    "title": "Daily Hut",
+    "details": "Overview: Daily Hut is an E-commerce platform that offers a wide variety of products including fashion, technology, accessories, groceries, and more. It provides a seamless shopping experience with user-friendly features such as search functionality, category browsing, and easy dashboard maintaining process.",
+    "TechnologyUsed": "HTML,CSS,Tailwind CSS,React.js,Firebase,Node.js,Express.js,MongoDB",
+    "liveSite": "https://daily-hut-client.vercel.app/",
+    "clientSideCode": "https://github.com/nasir35/daily-hut-client",
+    "serverSideCode": "https://github.com/nasir35/daily-hut-backend"
+  },
+  {
+    "id": 2,
     "img": "bikemart",
     "title": "Bike Mart",
     "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
@@ -10,7 +20,7 @@
     "serverSideCode": "https://github.com/nasir35/Bikemart-server-side"
   },
   {
-    "id": 2,
+    "id": 3,
     "img": "footprints",
     "title": "FootPrints",
     "currentStatus": "As Heroku stopped providing free server service, Currently the website is not functional!",
@@ -21,7 +31,7 @@
     "serverSideCode": "https://github.com/nasir35/footprints-server-side"
   },
   {
-    "id": 3,
+    "id": 4,
     "img": "medicare",
     "title": "Medicare",
     "details": "Overview: Medicare Hospital is a single page web app where people are able to select medical services which they want and can book an appointment by filling up a form of information. Implemented Email, Google, Github and Facebook Authentication. So that users can simply register or login. Implemented React-router and ensured Authwall for private routes.",
@@ -31,7 +41,7 @@
     "serverSideCode": "No server side"
   },
   {
-    "id": 4,
+    "id": 5,
     "img": "tastyFoodHub",
     "title": "Tasty Food Hub",
     "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
@@ -41,7 +51,7 @@
     "serverSideCode": "No server side"
   },
   {
-    "id": 5,
+    "id": 6,
     "img": "HondaCBR",
     "title": "Honda",
     "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
@@ -51,7 +61,7 @@
     "serverSideCode": "No server side"
   },
   {
-    "id": 6,
+    "id": 7,
     "img": "TechyTeach",
     "title": "Techy Teach",
     "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
