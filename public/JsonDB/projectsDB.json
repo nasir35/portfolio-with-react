@@ -15,8 +15,8 @@
     "title": "Bike Mart",
     "details": "Overview: Bikemart is a single page web app with a dashboard  where people can buy bikes of different categories. Can see their order list and can manage them. The dashboard is designed with Tailwind CSS and made functional with react-router-dom@5.0. Implemented JWT token to ensure the security of admin access. The dashboard is designed differently for user and admin. An admin can manage orders, products. He can add a Product or Blog and can make a user admin too.",
     "TechnologyUsed": "HTML,CSS,Tailwind CSS,React.js,Firebase,Node.js,Express.js,MongoDB",
-    "liveSite": "https://bikemart-by-nasir.web.app/",
-    "clientSideCode": "https://github.com/nasir35/Bikemart-client-side",
+    "liveSite": "https://bikemart-client-side.vercel.app/",
+    "clientSideCode": "https://github.com/nasir35/Bikemart-client",
     "serverSideCode": "https://github.com/nasir35/Bikemart-server-side"
   },
   {
